@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { Suspense, lazy } from 'react'
-import Home from './components/Home'
+import Home from './Components/Home'
 import './App.css'
 const Contact= lazy(()=>import('./Components/Contact'))
 import Navigation from './components/Navigation'
