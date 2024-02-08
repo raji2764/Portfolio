@@ -3,7 +3,7 @@ import React, { Suspense, lazy } from 'react'
 import Home from './Components/Home'
 import './App.css'
 const Contact= lazy(()=>import('./Components/Contact'))
-import Navigation from './components/Navigation'
+import Navigation from './Components/Navigation'
 import { Outlet, RouterProvider } from 'react-router'
 import { createBrowserRouter } from 'react-router-dom'
 const AboutMe = lazy(()=>import('./Components/AboutMe'))
